@@ -1,0 +1,9 @@
+﻿Stage / source,Coverage or rule,Use in dataset,Notes
+China Statistical Yearbook and provincial statistical yearbooks,1990–2025,Economic structure and population indicators,Underlying publications remain subject to their providers’ terms.
+China Energy Statistical Yearbook and related energy statistics,1990–2025,"Energy consumption, generation and fuel-production indicators",Underlying publications remain subject to their providers’ terms.
+China Statistical Yearbook on Environment,Available provincial years,SO2 emissions,Integrated by province and year.
+CEADs provincial apparent carbon-emission inventory,1997–2022; 30 provinces,Apparent CO2 emissions,Tibet is absent from the source inventory; years outside coverage were missing before imputation.
+Input imputation step 1,Within each province,Linear interpolation over time,Applied only to predictor variables.
+Input imputation step 2,Within each province,"Forward fill, then backward fill",Applied only after interpolation.
+Input imputation step 3,"Region-year, then global",Median fallback,Used only when province-level processing could not fill a predictor.
+Outcome handling,TEC,No imputation,Only observed TEC records enter Analysis_Data.

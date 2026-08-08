@@ -1,0 +1,18 @@
+﻿Column,Abbreviation,Role,Unit,Definition,Primary source
+Province,—,Identifier,category,Province-level unit retained for tracing only; not a model input.,Compiled provincial statistics
+Year,Year,Input,year,Observation year.,Compiled provincial statistics
+Region,Region,Input,category,Four-region grouping used as a categorical model input.,Derived regional classification
+Regional GDP,GDP,Input,10^8 CNY,Regional gross domestic product.,China Statistical Yearbook and provincial statistical yearbooks
+Secondary industry value added,SIVA,Input,10^8 CNY,Value added of the secondary industry.,China Statistical Yearbook and provincial statistical yearbooks
+Tertiary industry value added from Long,TIVA,Input,10^8 CNY,Value added of the tertiary industry.,China Statistical Yearbook and provincial statistical yearbooks
+GDP per capita from Long,GDPpc,Auxiliary; excluded,CNY person^-1,Per-capita GDP. Retained in Raw_Data but excluded before modelling to reduce redundancy.,China Statistical Yearbook and provincial statistical yearbooks
+Industrial value added from Long,IVA,Input,10^8 CNY,Industrial value added.,China Statistical Yearbook and provincial statistical yearbooks
+Total electricity generation,TEG,Input,10^8 kWh,Total electricity generation.,China Energy Statistical Yearbook and China Statistical Yearbook
+Population,POP,Input,10^4 persons,Total provincial population.,China Statistical Yearbook
+Hydropower generation from Long,HPG,Input,10^8 kWh,Hydropower generation.,China Energy Statistical Yearbook and China Statistical Yearbook
+Raw coal production from Long,RCP,Input,10^4 t,Raw coal production.,China Energy Statistical Yearbook and China Statistical Yearbook
+Non fossil electricity generation,NFEG,Input,10^8 kWh,Aggregate non-fossil electricity generation.,China Energy Statistical Yearbook and China Statistical Yearbook
+SO2 emissions,SO2,Input,10^4 t,Sulphur dioxide emissions.,China Statistical Yearbook on Environment
+Natural gas production from Long,NGP,Input,10^8 m^3,Natural gas production.,China Energy Statistical Yearbook and China Statistical Yearbook
+Total apparent CO2 emissions (mt),CO2,Input,Mt,Provincial apparent carbon dioxide emissions.,CEADs China provincial apparent carbon-emission inventory
+Total energy consumption,TEC,Outcome,10^4 tce,Provincial total energy consumption; never imputed.,China Energy Statistical Yearbook and China Statistical Yearbook

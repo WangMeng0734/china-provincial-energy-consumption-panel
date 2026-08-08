@@ -1,0 +1,19 @@
+﻿Data quality and reproducibility checks,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+,,,,
+Check,Value,,Variable,Missing before
+Raw province-year rows,1116,,Province,0
+Observed TEC rows,1003,,Year,0
+Missing TEC rows,113,,Region,0
+Analysis_Data rows,1003,,Regional GDP,0
+Final model inputs,14,,Secondary industry value added,0
+Minimum year,1990,,Tertiary industry value added from Long,0
+Maximum year,2025,,Industrial value added from Long,8
+,,,Total electricity generation,12
+,,,Population,31
+,,,Hydropower generation from Long,59
+,,,Raw coal production from Long,130
+,,,Non fossil electricity generation,169
+,,,SO2 emissions,177
+,,,Natural gas production from Long,292
+,,,Total apparent CO2 emissions (mt),336
+,,,Total energy consumption,113

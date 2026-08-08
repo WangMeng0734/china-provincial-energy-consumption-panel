@@ -1,0 +1,17 @@
+﻿Variable,Missing before,Missing rate,Missing after,Imputed count,Method,Calc missing before,Calc rate,Calc missing after,Calc imputed count
+Province,0,0.0,0,0,No numerical imputation required.,0,0.0,0,0
+Year,0,0.0,0,0,No numerical imputation required.,0,0.0,0,0
+Region,0,0.0,0,0,No numerical imputation required.,0,0.0,0,0
+Regional GDP,0,0.0,0,0,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,0,0.0,0,0
+Secondary industry value added,0,0.0,0,0,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,0,0.0,0,0
+Tertiary industry value added from Long,0,0.0,0,0,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,0,0.0,0,0
+Industrial value added from Long,8,0.007168458781362007,0,8,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,8,0.007168458781362007,0,8
+Total electricity generation,12,0.010752688172043012,0,12,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,12,0.010752688172043012,0,12
+Population,31,0.027777777777777776,0,31,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,31,0.027777777777777776,0,31
+Hydropower generation from Long,59,0.0528673835125448,0,59,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,59,0.0528673835125448,0,59
+Raw coal production from Long,130,0.11648745519713262,0,130,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,130,0.11648745519713262,0,130
+Non fossil electricity generation,169,0.15143369175627241,0,169,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,169,0.15143369175627241,0,169
+SO2 emissions,177,0.1586021505376344,0,177,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,177,0.1586021505376344,0,177
+Natural gas production from Long,292,0.2616487455197133,0,292,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,292,0.2616487455197133,0,292
+Total apparent CO2 emissions (mt),336,0.3010752688172043,0,336,Province linear interpolation; forward/backward fill; region-year median; overall median fallback.,336,0.3010752688172043,0,336
+Total energy consumption,113,0.10125448028673835,113,0,Not imputed; rows with missing TEC excluded from analysis.,113,0.10125448028673835,113,0
